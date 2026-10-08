@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.appContainer {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logoutButton {
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.headerActions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.changeNumberButton {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.changeNumberButton:hover {
+  background-color: #303f9f;
+}
